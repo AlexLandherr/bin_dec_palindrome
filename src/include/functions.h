@@ -6,7 +6,9 @@
 
 namespace func {
     void remove_leading_zeros(std::string &num_str);
-    bool is_both_palindrome(uint64_t num);
+    bool is_decimal_palindrome(uint64_t num);
+    bool is_binary_palindrome(uint64_t num);
+    uint64_t bin_dec_palindrome_sum(uint64_t upper_limit);
 }
 
 #endif
